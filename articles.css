@@ -1,0 +1,152 @@
+.articleRightContainer {
+	width: 100%;
+	height: 600px;
+}
+
+.articleRight {
+	position: absolute;
+	height: 600px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.articleRight .visualRight {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 600px;
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: row
+}
+
+.articleRight .visualRight .textRight {
+	height: 100%;
+	width: 60%;
+	background-color: white;
+	color: black;
+}
+
+.articleRight .visualRight .pictureRight {
+	height: 600px;
+	width: 40%;
+	background-color: red;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.articleRight .backgroundRight {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 600px;
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: row
+}
+
+.articleRight .backgroundRight .backgroundTextRight {
+	z-index: 1;
+	height: 100%;
+	width: 65%;
+	background-color: white;
+	transform: skew(20deg);
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.articleLeftTextContainer {
+	height: 600px;
+	transform: skew(-20deg);
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+	font-family: 'Roboto Mono', monospace;
+}
+
+.articleRightText {
+	width: 80%;
+}
+
+.articleRight .backgroundRight .backgroundPictureRight {
+	z-index: 1;
+	height: 600px;
+	width: 35%;
+	background-color: red;
+	transform: skew(20deg);
+	opacity: 0;
+}
+
+.articleLeftContainer {
+	width: 100%;
+	height: 600px;
+}
+
+.articleLeft {
+	position: absolute;
+	height: 600px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.articleLeft .visualLeft {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 600px;
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: row-reverse;
+}
+
+.articleLeft .visualLeft .textLeft {
+	height: 100%;
+	width: 60%;
+	background-color: white;
+	color: black;
+}
+
+.articleLeft .visualLeft .pictureLeft {
+	height: 600px;
+	width: 40%;
+	background-color: red;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.articleLeft .backgroundLeft {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 600px;
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: row-reverse;
+}
+
+.articleLeft .backgroundLeft .backgroundTextLeft {
+	z-index: 1;
+	height: 100%;
+	width: 65%;
+	background-color: white;
+	transform: skew(20deg);
+}
+
+.articleLeft .backgroundLeft .backgroundPictureLeft {
+	z-index: 1;
+	height: 600px;
+	width: 35%;
+	background-color: red;
+	transform: skew(20deg);
+	opacity: 0;
+}
+

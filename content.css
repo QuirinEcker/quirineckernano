@@ -1,0 +1,38 @@
+#newsSlideShowContainer {
+	height: 80vh;
+	width: 100%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#newsSlideShow {
+	height: 80vh;
+	width: 100%;
+	border: 1px solid black;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	background-image: url(football.jpg);
+	background-size: cover;
+}
+
+#buttonContainer {
+	position: relative;
+	width: 95%;
+	height: 100px;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#buttonContainer .button {
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	border: 1px dashed black;
+}

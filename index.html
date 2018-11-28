@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Untitled Document</title>
+		<link rel="stylesheet" href="headerV2.css">
+		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="content.css">
+		<link rel="stylesheet" href="articles.css">
+		<link rel="stylesheet" href="sponsor.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet"> 
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+
+	<body onscroll="scrollListener()">
+		<header>
+			<nav>
+				<div id="logoPart">
+					<div class="navPoint" id="logo">
+						Logo
+					</div>
+				</div>
+				<div id="menuPart">
+					<div class="navPoint" id="home"     onMouseOver="navHoverOn(0)" onMouseOut="navHoverOff(0)">
+						Home
+					</div>
+					<div class="navPoint" id="projects" onMouseOver="navHoverOn(1)" onMouseOut="navHoverOff(1)">
+						Projects
+					</div>
+					<div class="navPoint" id="member"   onMouseOver="navHoverOn(2)" onMouseOut="navHoverOff(2)">
+						Member
+					</div>
+					<div class="navPoint" id="about"    onMouseOver="navHoverOn(3)" onMouseOut="navHoverOff(3)">
+						About
+					</div>
+				</div>
+			</nav>
+			<div id="hoverEffects">
+				<div>
+					<div class="hoverPoint" id="homeHover"></div>
+					<div class="hoverPoint" id="projectsHover"></div>
+					<div class="hoverPoint" id="memberHover"></div>
+					<div class="hoverPoint" id="aboutHover"></div>
+				</div>
+			</div>
+		</header>
+		
+		<main>
+			<div id="newsSlideShowContainer">
+				<div id="newsSlideShow">
+					<div id="buttonContainer">
+						<div id="forwardButton"  class="button"></div>
+						<div id="backwardButton" class="button"></div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="sponsorsContainer">
+				<div class="sponsor"><img src="fabasoft-logo.svg" alt=""></div>
+				<div class="sponsor"><img src="fabasoft-logo.svg" alt=""></div>
+				<div class="sponsor"><img src="fabasoft-logo.svg" alt=""></div>
+			</div>
+			
+			<div class="articleRightContainer">			
+				<div class="articleRight">
+					<div class="visualRight">
+						<div class="textRight"></div>
+						<div class="pictureRight" style="background-image: url(football.jpg)"></div>
+					</div>
+					<div class="backgroundRight">
+						<div class="backgroundTextRight">
+							<div class="articleLeftTextContainer">
+								<h1>Robocup Football</h1>
+								<p class="articleRightText">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et rhoncus diam. Pellentesque volutpat mattis lectus, vel feugiat justo. Etiam tincidunt risus in lectus aliquet, id porta libero dictum. Integer nibh nisl, lobortis sed nisl sed, auctor fringilla mi. Maecenas vulputate in risus non eleifend. Vivamus at efficitur lorem, vitae dapibus arcu. Nunc venenatis tincidunt tincidunt. Duis malesuada ex ac massa aliquet, at laoreet nunc sagittis. Donec scelerisque, libero quis pellentesque pellentesque, elit velit venenatis nibh, nec ornare turpis mauris eget enim. 
+								</p>
+								<p class="articleRightText">
+									Phasellus nisl augue, vulputate vel fermentum vel, vestibulum ut augue. Cras tincidunt sollicitudin sem nec varius. Aenean dignissim, enim sed feugiat vestibulum, magna augue tempus massa, eu ultricies felis turpis non eros. Ut egestas vehicula quam in tincidunt. Quisque ultrices purus risus, ac dictum risus sodales dapibus. Proin at euismod sem. Donec egestas pretium bibendum. Praesent nec pulvinar mi, eget interdum quam. Duis vel egestas risus. Nulla euismod orci scelerisque laoreet euismod. Vestibulum varius mi eu ipsum tempor vulputate. Praesent porta in sem non mollis. Proin mauris elit, dignissim nec convallis quis, finibus sit amet ante. Nulla consectetur arcu in mattis accumsan. 
+								</p>
+							</div>
+						</div>
+						<div class="backgroundPictureRight"></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="articleLeftContainer">			
+				<div class="articleLeft">
+					<div class="visualLeft">
+						<div class="textLeft">
+						
+						</div>
+						<div class="pictureLeft" style="background-image: url(football.jpg)"></div>
+					</div>
+					<div class="backgroundLeft">
+						<div class="backgroundTextLeft"></div>
+						<div class="backgroundPictureLeft"></div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
